@@ -1,0 +1,654 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>bundleid</key>
+	<string>com.anicks.alfred.android</string>
+	<key>category</key>
+	<string>Tools</string>
+	<key>connections</key>
+	<dict>
+		<key>1095B35C-8EF7-4517-B209-F5EA9C697338</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>39531262-D994-40DA-8F0F-888C3471E21E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>131A527A-9B09-4CA5-AC1D-111BA66282FA</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>B96E6EB8-FA76-445D-9587-1EFC6C23C0A1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>1E18758A-BE34-42BE-BEB5-99C876041850</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>39531262-D994-40DA-8F0F-888C3471E21E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>3AFBBC8E-7BD4-49F2-8A7C-75287B360EB1</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>39531262-D994-40DA-8F0F-888C3471E21E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>90AB3AEF-2FB5-4F2B-A038-50BFAB57E285</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>39531262-D994-40DA-8F0F-888C3471E21E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>B70E952B-FDCA-48B5-BB89-B78BBE725787</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>3AFBBC8E-7BD4-49F2-8A7C-75287B360EB1</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>DEF58F24-B409-4D7C-AE65-983FAC882D2E</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>F56B4915-4CC5-46C6-AD5C-7C55529585E2</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>1E18758A-BE34-42BE-BEB5-99C876041850</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Replace existing app</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F2359CB6-39E7-4036-82C4-8DA3E5A4B0B2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>1095B35C-8EF7-4517-B209-F5EA9C697338</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+			<dict>
+				<key>destinationuid</key>
+				<string>90AB3AEF-2FB5-4F2B-A038-50BFAB57E285</string>
+				<key>modifiers</key>
+				<integer>1048576</integer>
+				<key>modifiersubtext</key>
+				<string>Keep data</string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+		<key>F56B4915-4CC5-46C6-AD5C-7C55529585E2</key>
+		<array>
+			<dict>
+				<key>destinationuid</key>
+				<string>39531262-D994-40DA-8F0F-888C3471E21E</string>
+				<key>modifiers</key>
+				<integer>0</integer>
+				<key>modifiersubtext</key>
+				<string></string>
+				<key>vitoclose</key>
+				<false/>
+			</dict>
+		</array>
+	</dict>
+	<key>createdby</key>
+	<string>Nick Assendelft</string>
+	<key>description</key>
+	<string>Handy adb commands</string>
+	<key>disabled</key>
+	<false/>
+	<key>name</key>
+	<string>ADB</string>
+	<key>objects</key>
+	<array>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>import subprocess
+import os
+
+adb_path = os.getenv('adb_path')
+
+print(subprocess.check_output('{0} -d reboot'.format(adb_path),
+                                       stderr=subprocess.STDOUT,
+                                       shell=True))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>B96E6EB8-FA76-445D-9587-1EFC6C23C0A1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>adbrb</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Reboot device</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>131A527A-9B09-4CA5-AC1D-111BA66282FA</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>argumenttype</key>
+				<integer>2</integer>
+				<key>keyword</key>
+				<string>adbr</string>
+				<key>subtext</key>
+				<string></string>
+				<key>text</key>
+				<string>Restart adb</string>
+				<key>withspace</key>
+				<false/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.keyword</string>
+			<key>uid</key>
+			<string>B70E952B-FDCA-48B5-BB89-B78BBE725787</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>import subprocess
+import os
+import sys
+
+adb_path = os.getenv('adb_path')
+
+response = subprocess.check_output(
+           '{0} kill-server &amp;&amp; {1} start-server'.format(adb_path, adb_path),
+           stderr=subprocess.STDOUT,
+           shell=True)
+
+if 'daemon started successfully' in response:
+    sys.stdout.write('Successfully restarted')
+else:
+    sys.stdout.write('Failed restarting')</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>3AFBBC8E-7BD4-49F2-8A7C-75287B360EB1</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>import subprocess
+import os
+import sys
+
+adb_path = os.getenv('adb_path')
+apk = sys.argv[1]
+
+response = subprocess.check_output(
+    '{0} install {1}'.format(adb_path, apk),
+    stderr=subprocess.STDOUT,
+    shell=True)
+
+if 'Success' in response:
+    sys.stdout.write('Successfully installed {0}'.format(apk))
+else:
+	sys.stdout.write('Failed installing {0}'.format(apk))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>F56B4915-4CC5-46C6-AD5C-7C55529585E2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>anchorfields</key>
+				<true/>
+				<key>argumenttype</key>
+				<integer>0</integer>
+				<key>daterange</key>
+				<integer>0</integer>
+				<key>fields</key>
+				<array>
+					<dict>
+						<key>field</key>
+						<string>kMDItemDisplayName</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemAlternateNames</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+					<dict>
+						<key>field</key>
+						<string>kMDItemFinderComment</string>
+						<key>not</key>
+						<false/>
+						<key>split</key>
+						<true/>
+						<key>value</key>
+						<string>{query}</string>
+						<key>words</key>
+						<true/>
+					</dict>
+				</array>
+				<key>includesystem</key>
+				<false/>
+				<key>keyword</key>
+				<string>adbi</string>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>scopes</key>
+				<array/>
+				<key>subtext</key>
+				<string>Install an apk</string>
+				<key>title</key>
+				<string>Install</string>
+				<key>types</key>
+				<array/>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.filefilter</string>
+			<key>uid</key>
+			<string>DEF58F24-B409-4D7C-AE65-983FAC882D2E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>lastpathcomponent</key>
+				<false/>
+				<key>onlyshowifquerypopulated</key>
+				<false/>
+				<key>removeextension</key>
+				<false/>
+				<key>text</key>
+				<string>{query}</string>
+				<key>title</key>
+				<string>ADB</string>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.output.notification</string>
+			<key>uid</key>
+			<string>39531262-D994-40DA-8F0F-888C3471E21E</string>
+			<key>version</key>
+			<integer>1</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>import subprocess
+import os
+import sys
+
+adb_path = os.getenv('adb_path')
+apk = sys.argv[1]
+
+response = subprocess.check_output(
+    '{0} install -r {1}'.format(adb_path, apk),
+    stderr=subprocess.STDOUT,
+    shell=True)
+
+if 'Success' in response:
+    sys.stdout.write('Successfully installed {0}'.format(apk))
+else:
+	sys.stdout.write('Failed installing {0}'.format(apk))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1E18758A-BE34-42BE-BEB5-99C876041850</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>import subprocess
+import os
+import sys
+
+adb_path = os.getenv('adb_path')
+package = sys.argv[1]
+
+response = subprocess.check_output(
+           '{0} uninstall {1}'.format(adb_path, package),
+           stderr=subprocess.STDOUT,
+           shell=True)
+
+if 'Success' in response:
+    sys.stdout.write('Successfully uninstalled {0}'.format(package))
+else:
+	sys.stdout.write('Failed uninstalling {0}'.format(package))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>1095B35C-8EF7-4517-B209-F5EA9C697338</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>adbu</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>python list_apps.py "{query}"</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string>Select an app to uninstall</string>
+				<key>title</key>
+				<string>Uninstall app</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>F2359CB6-39E7-4036-82C4-8DA3E5A4B0B2</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>concurrently</key>
+				<false/>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>script</key>
+				<string>import subprocess
+import os
+import sys
+
+adb_path = os.getenv('adb_path')
+package = sys.argv[1]
+
+response = subprocess.check_output(
+           '{0} shell pm uninstall -k {1}'.format(adb_path, package),
+           stderr=subprocess.STDOUT,
+           shell=True)
+
+if 'Success' in response:
+    sys.stdout.write('Successfully uninstalled {0}'.format(package))
+else:
+	sys.stdout.write('Failed uninstalling {0}'.format(package))</string>
+				<key>scriptargtype</key>
+				<integer>1</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>type</key>
+				<integer>3</integer>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.action.script</string>
+			<key>uid</key>
+			<string>90AB3AEF-2FB5-4F2B-A038-50BFAB57E285</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
+	</array>
+	<key>readme</key>
+	<string>To configure this workflow be sure to set the path to the adb binary. (Configure workflow and variables)
+i.e. /usr/local/bin/adb</string>
+	<key>uidata</key>
+	<dict>
+		<key>1095B35C-8EF7-4517-B209-F5EA9C697338</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>650</integer>
+		</dict>
+		<key>131A527A-9B09-4CA5-AC1D-111BA66282FA</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>1E18758A-BE34-42BE-BEB5-99C876041850</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>500</integer>
+		</dict>
+		<key>39531262-D994-40DA-8F0F-888C3471E21E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>570</integer>
+			<key>ypos</key>
+			<integer>430</integer>
+		</dict>
+		<key>3AFBBC8E-7BD4-49F2-8A7C-75287B360EB1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+		<key>90AB3AEF-2FB5-4F2B-A038-50BFAB57E285</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>780</integer>
+		</dict>
+		<key>B70E952B-FDCA-48B5-BB89-B78BBE725787</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>220</integer>
+		</dict>
+		<key>B96E6EB8-FA76-445D-9587-1EFC6C23C0A1</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>40</integer>
+		</dict>
+		<key>DEF58F24-B409-4D7C-AE65-983FAC882D2E</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>430</integer>
+		</dict>
+		<key>F2359CB6-39E7-4036-82C4-8DA3E5A4B0B2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>710</integer>
+		</dict>
+		<key>F56B4915-4CC5-46C6-AD5C-7C55529585E2</key>
+		<dict>
+			<key>xpos</key>
+			<integer>240</integer>
+			<key>ypos</key>
+			<integer>370</integer>
+		</dict>
+	</dict>
+	<key>variables</key>
+	<dict>
+		<key>adb_path</key>
+		<string>/usr/local/bin/adb</string>
+	</dict>
+	<key>variablesdontexport</key>
+	<array>
+		<string>adb_path</string>
+	</array>
+	<key>version</key>
+	<string>1.0.0</string>
+	<key>webaddress</key>
+	<string></string>
+</dict>
+</plist>
