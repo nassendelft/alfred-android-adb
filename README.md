@@ -9,10 +9,10 @@ Alfred workflow with handy adb command
 ## Usage
 
 ### Commands
-![Commands](https://raw.githubusercontent.com/nassendelft/alfred-android-emulator/master/usage.png "Commands")
+![Commands](https://raw.githubusercontent.com/nassendelft/alfred-android-adb/master/usage.png "Commands")
 
 ### Install apk
-![Install apk](https://raw.githubusercontent.com/nassendelft/alfred-android-emulator/master/usage_install.png "Install apk")
+![Install apk](https://raw.githubusercontent.com/nassendelft/alfred-android-adb/master/usage_install.png "Install apk")
 
 ### Uninstall apk
-![Uninstall apk](https://raw.githubusercontent.com/nassendelft/alfred-android-emulator/master/usage_uninstall.png "Unitednstall apk")
+![Uninstall apk](https://raw.githubusercontent.com/nassendelft/alfred-android-adb/master/usage_uninstall.png "Uninstall apk")
