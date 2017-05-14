@@ -983,7 +983,7 @@ i.e. /usr/local/bin/adb</string>
 		<string>adb_path</string>
 	</array>
 	<key>version</key>
-	<string>1.0.2</string>
+	<string>1.0.3</string>
 	<key>webaddress</key>
 	<string>https://github.com/nassendelft/alfred-android-adb</string>
 </dict>
