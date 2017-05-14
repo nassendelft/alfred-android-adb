@@ -797,6 +797,49 @@ else:
 			<key>version</key>
 			<integer>2</integer>
 		</dict>
+		<dict>
+			<key>config</key>
+			<dict>
+				<key>alfredfiltersresults</key>
+				<false/>
+				<key>argumenttype</key>
+				<integer>1</integer>
+				<key>escaping</key>
+				<integer>102</integer>
+				<key>keyword</key>
+				<string>adbl</string>
+				<key>queuedelaycustom</key>
+				<integer>3</integer>
+				<key>queuedelayimmediatelyinitially</key>
+				<true/>
+				<key>queuedelaymode</key>
+				<integer>0</integer>
+				<key>queuemode</key>
+				<integer>1</integer>
+				<key>runningsubtext</key>
+				<string></string>
+				<key>script</key>
+				<string>python list_devices.py</string>
+				<key>scriptargtype</key>
+				<integer>0</integer>
+				<key>scriptfile</key>
+				<string></string>
+				<key>subtext</key>
+				<string></string>
+				<key>title</key>
+				<string>List devices</string>
+				<key>type</key>
+				<integer>0</integer>
+				<key>withspace</key>
+				<true/>
+			</dict>
+			<key>type</key>
+			<string>alfred.workflow.input.scriptfilter</string>
+			<key>uid</key>
+			<string>6CC71670-241E-4E01-ADC6-0EA61C4D238C</string>
+			<key>version</key>
+			<integer>2</integer>
+		</dict>
 	</array>
 	<key>readme</key>
 	<string>To configure this workflow be sure to set the path to the adb binary. (Configure workflow and variables)
@@ -851,6 +894,13 @@ i.e. /usr/local/bin/adb</string>
 			<integer>40</integer>
 			<key>ypos</key>
 			<integer>1210</integer>
+		</dict>
+		<key>6CC71670-241E-4E01-ADC6-0EA61C4D238C</key>
+		<dict>
+			<key>xpos</key>
+			<integer>40</integer>
+			<key>ypos</key>
+			<integer>1550</integer>
 		</dict>
 		<key>6E7944F5-3D8A-479F-B5A2-9B0D0BD60395</key>
 		<dict>
@@ -926,7 +976,7 @@ i.e. /usr/local/bin/adb</string>
 	<key>variables</key>
 	<dict>
 		<key>adb_path</key>
-		<string></string>
+		<string>/usr/local/bin/adb</string>
 	</dict>
 	<key>variablesdontexport</key>
 	<array>
